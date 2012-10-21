@@ -1,4 +1,4 @@
-Open Source WoW Launcher
+Open Source WoW Launcher Website
 -----------------------------
 
 
