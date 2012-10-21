@@ -173,7 +173,9 @@
 	<div class="header">
 		<div class="b_forum" onclick="openURL('<? echo $setting_data["f_url"]; ?>')"></div>
 		<!--<div class="b_status"></div>-->
-		<div class="b_rpw" onclick="openURL('<? echo $setting_data["server_link"]; ?>')"></div>
+		<?php
+		if ($rpw_id > 0){echo "<div class='b_rpw' onclick='openURL(\"".$setting_data["server_link"]."\")'></div>";}
+		?>
 	</div>
 	<div class="news">
 		<?php

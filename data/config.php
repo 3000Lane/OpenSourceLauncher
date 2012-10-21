@@ -14,8 +14,8 @@
 	);
 	$topic_table = 'forum_topics';					// Name der Thementabelle, phpbb3 std. "phpbb3_topics"
 	
-	$website_url = 'http://utopia.rp-welten.net';	// Link zu deiner eigenen Website
-	$rpw_id = '30';									// Die RP-Welten ID für deinen Server
+	$website_url = 'http://rp-welten.net';			// Link zu deiner eigenen Website
+	$rpw_id = '0';									// Falls du ein RP-Welten ID besitzt, kannst du diese hier eintragen.
 	$news_forum_id = '34';							// Die ID des Forums aus welchem die News ausgelesen werden sollen.
 	
 	
