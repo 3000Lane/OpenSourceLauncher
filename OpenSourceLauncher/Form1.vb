@@ -6,9 +6,9 @@ Imports System.Runtime.InteropServices
 Imports System.Xml
 Imports System.Net.Sockets
 Public Class Form1
-    Public launcher_url As String = "http://launcher.rp-w.de/1"
-    Public realmlist As String = "youtube.com"
-    Public server_port As Integer = 80
+    Public launcher_url As String = "http://launcher.rp-w.de/1" 'The page url
+    Public realmlist As String = "youtube.com" 'You're server realmlist
+    Public server_port As Integer = 8085 ' You´re worldserver port
     Public game_local As String
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
